@@ -1,7 +1,7 @@
 Package: synapterdata
 Type: Package
 Title: Data accompanying the synapter package
-Version: 0.99.4
+Version: 1.0.0
 Author: Laurent Gatto and Pavel V. Shliaha
 Maintainer: Laurent Gatto <lg390@cam.ac.uk>
 Description: Data independant acquisition of UPS1 protein mix in 
