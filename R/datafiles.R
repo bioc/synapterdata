@@ -20,7 +20,6 @@ getFasta <- function() {
   return(file.path(td,fas))
 }
 
-
 getMaster <- function()
   dir(system.file("extdata", package = "synapterdata"),
       full.names = TRUE, pattern = "master.rds")
