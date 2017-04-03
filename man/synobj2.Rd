@@ -1,5 +1,6 @@
 \name{synobj2}
 \alias{synobj2}
+\alias{synobj3}
 \docType{data}
 
 \title{
@@ -14,9 +15,16 @@
   \url{http://proteome.sysbiol.cam.ac.uk/lgatto/synapter/data/} and the
   script \code{create_synobj2.R} in \code{system.file("scripts", package
   = "synapterdata")}.
+
+  The \code{synobj3} object replaces \code{synobj2} for synapter
+  version >= 1.99.
+
 }
 
-\usage{data(synobj2)}
+\usage{
+data(synobj2)
+data(synobj3)
+}
 
 \format{
   An instance of class \code{Synapter}.
