@@ -17,7 +17,8 @@
   = "synapterdata")}.
 
   The \code{synobj3} object replaces \code{synobj2} for synapter
-  version >= 1.99.
+  version >= 1.99, and was created with
+  \code{inst/scripts/create_synobj3.R}.
 
 }
 
