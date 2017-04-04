@@ -6,4 +6,5 @@ export("getHDMSeFinalPeptide",
        "getMSePep3D",
        "loadMaster",
        "getMaster",
-       "getFasta")
+       "getFasta",
+       "synobj2RData")

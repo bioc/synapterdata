@@ -2,6 +2,7 @@ CHANGES IN VERSION 1.13.2
 -------------------------
  o Add required fasta file <2017-04-04 Tue>
  o Replace old synobj2 with synobj3 <2017-04-04 Tue>
+ o Add synobj2RData fun <2017-04-04 Tue>
  
 CHANGES IN VERSION 1.13.1
 -------------------------

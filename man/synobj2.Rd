@@ -1,5 +1,6 @@
 \name{synobj2}
 \alias{synobj2}
+\alias{synobj2RData}
 \docType{data}
 
 \title{
@@ -15,10 +16,13 @@
   script \code{create_synobj2.R} in \code{system.file("scripts", package
   = "synapterdata")}.
 
+  Use \code{synobj2RData} to load it.
+
 }
 
 \usage{
 data(synobj2)
+synobj2RData()
 }
 
 \format{
@@ -27,7 +31,8 @@ data(synobj2)
 
 
 \examples{
-data(synobj2)
+synobj2RData()
+synobj2
 }
 
 \keyword{datasets}

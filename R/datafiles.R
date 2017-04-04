@@ -1,3 +1,10 @@
+synobj2Data <- function () {
+    f <- system.file("extdata", "S.cerevisiae_Uniprot_reference_canonical_18_03_14.fasta", package="synapter")
+    data(synobj3, package="synapterdata", envir=.GlobalEnv)
+    .GlobalEnv$synobj3$DbFastaFile <- f
+    ## .GlobalEnv$synobj3 <- updateObject(.GlobalEnv$synobj3)
+}
+
 getHDMSeFinalPeptide <- function() 
   dir(system.file("extdata", package = "synapterdata"),
       full.names = TRUE, pattern = "^HDMSe")
