@@ -1,6 +1,5 @@
 \name{synobj2}
 \alias{synobj2}
-\alias{synobj3}
 \docType{data}
 
 \title{
@@ -16,15 +15,10 @@
   script \code{create_synobj2.R} in \code{system.file("scripts", package
   = "synapterdata")}.
 
-  The \code{synobj3} object replaces \code{synobj2} for synapter
-  version >= 1.99, and was created with
-  \code{inst/scripts/create_synobj3.R}.
-
 }
 
 \usage{
 data(synobj2)
-data(synobj3)
 }
 
 \format{
