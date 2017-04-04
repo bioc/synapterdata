@@ -1,6 +1,8 @@
 synobj2RData <- function () {
-    f <- system.file("extdata", "S.cerevisiae_Uniprot_reference_canonical_18_03_14.fasta", package="synapter")
-    data(synobj2, package="synapterdata", envir=.GlobalEnv)
+    f <- system.file("extdata",
+                     "S.cerevisiae_Uniprot_reference_canonical_18_03_14.fasta",
+		     package = "synapterdata")
+    data(synobj2, package = "synapterdata", envir = .GlobalEnv)
     .GlobalEnv$synobj2$DbFastaFile <- f
     ## .GlobalEnv$synobj2 <- updateObject(.GlobalEnv$synobj2)
 }
