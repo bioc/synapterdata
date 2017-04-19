@@ -1,5 +1,6 @@
 import(synapter)
 importFrom("utils", "unzip")
+importFrom("utils", "data")
 
 export("getHDMSeFinalPeptide",
        "getMSeFinalPeptide",
