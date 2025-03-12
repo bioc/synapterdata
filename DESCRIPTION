@@ -1,7 +1,7 @@
 Package: synapterdata
 Type: Package
 Title: Data accompanying the synapter package
-Version: 1.45.0
+Version: 1.45.1
 Author: Laurent Gatto, Sebastian Gibb and Pavel V. Shliaha
 Maintainer: Laurent Gatto <laurent.gatto@uclouvain.be>
 Description: Data independant acquisition of UPS1 protein mix in 
@@ -12,3 +12,4 @@ Imports: utils
 License: GPL-2
 biocViews: ExperimentData, MassSpectrometryData
 Packaged: 2012-06-13 13:22:06 UTC; lgatto
+PackageStatus: Deprecated
